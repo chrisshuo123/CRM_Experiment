@@ -6,8 +6,11 @@
 - ✅ Relasi Database (MySQL)
 
 **In Progress:**
-- 🔄 Melengkapi informasi Daftar Nama _(utamanya menggunakan data simulasi)_
-- 🔄 Menambahkan halaman CRUD Panel dan MVC
+- 🔄 Melengkapi informasi Daftar Nama (utamanya menggunakan data simulasi Factory)
+- 🔄 Membuat halaman Utama berupa tabel (berisi list daftar nama CRM)
+- 🔄 Membuat halaman detail yang berisi data & bio lengkap sebuah baris data
+- 🔄 Membuat fitur Tambahkan daftar nama
+- 🔄 Membuat fitur Update & Hapus daftar nama
 
 **Tech Stack:** Laravel, MySQL
 
