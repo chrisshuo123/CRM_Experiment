@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Contact List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 style="margin-bottom: 3%;">CRM Contact List (B2B / B2C)</h1>
+        <div style="display: flex; flex-direction: row;">
+            <button style="margin-bottom: 2%; margin-right: 7%;" class="btn btn-primary">Tambahkan</button>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Nama Kontak</a></li>
+                    <li><a class="dropdown-item" href="#">Perusahaan</a></li>
+                    <li><a class="dropdown-item" href="#">Tanggal Pendataan</a></li>
+                    <li><a class="dropdown-item" href="#">Nama Perusahaan</a></li>
+                </ul>
+            </div>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <!-- Yang input_time, update_time, dan tgl. Pendataan disertakan pada halaman "detail" -->
+                <tr class="border">
+                    <th scope="col">No</th>
+                    <th scope="col">Nama Kontak</th>
+                    <th scope="col">input_time</th>
+                    <th scope="col">Perusahaan <i>(Jika ada)</i></th>
+                    <th scope="col">No. Telp <i>(WA / HP / Kantor, dll)</i></th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Kontak Tambahan</th>
+                    <th scope="col">Catatan / Deskripsi Bio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
